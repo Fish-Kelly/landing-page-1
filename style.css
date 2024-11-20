@@ -1,0 +1,170 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+/* Header */
+.header {
+    display: flex;
+    background: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.top-links {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    color: #E5E7EB;
+    padding-right: 20px;
+}
+
+.logo {
+    align-self: center;
+    padding: 10px;
+    border-radius: 50px;
+}
+/* Sub-Header */
+.sub-header {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-header-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.sub-header-button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 80px;
+    height: 25px;
+    margin: 10px 0px;
+}
+
+.sub-header-image img {
+    border-radius: 10px;
+}
+/* Information */
+.main {
+    text-align: center;
+}
+
+.title {
+    margin: 30px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-size: 16px;
+    gap: 50px;
+}
+
+.container img {
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+}
+/* Quote */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 150px 
+}
+
+.attribution {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 0 300px 20px 0;
+    font-size: 12px;
+}
+/* Footer */
+
+.footer {
+   border: solid 10px #3882F6;
+   background-color: #3882F6;
+   height: 75px;
+   display: flex;
+   margin: 50px;
+   border-radius: 5px;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color:#E5E7EB
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer-button {
+    width: 80px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#3882F6;
+    color:#E5E7EB;
+    border:#E5E7EB solid 2px;
+    border-radius: 5px;
+    
+}
+
+.p1 {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.p2 {
+    font-size: 10px;
+}
